@@ -4,7 +4,9 @@ import { Carousel } from "components/carousel";
 import { get } from "utils/api";
 import { useEffect, useState } from "react";
 import { Dropdown } from "components/dropdown";
+import curve from "public/static/curve.svg";
 import { SimpleTimeline } from "components/timeline/simple";
+import { Sidebar } from "components/sidebar/sidebar";
 const mapNameToComponent = {
   "common.carousel": (props) => <Carousel {...props} />,
 };
@@ -62,6 +64,7 @@ export default function Home({ d }) {
         </nav>
       </div>
       <main className="bg-gray-100">
+        <div></div>
         {d && mapNameToComponent[d.__component]({ d: d.Images })}
         <div className="text-yellow-600 flex md:justify-end gap-2 justify-center">
           <Link href="#">
@@ -81,6 +84,8 @@ export default function Home({ d }) {
           <h4>Latest Recipes</h4>
           <div>
             <div>
+              <Image src={curve} alt="" width="400" height="300" />
+
               <Image
                 src="https://raw.githubusercontent.com/iamshaunjp/tailwind-tutorial/lesson-2/public/img/curry.jpg"
                 alt=""
@@ -104,6 +109,7 @@ export default function Home({ d }) {
         </div>
         <SimpleTimeline />
       </main>
+      {/* <div className="fixed h-full w-60 z-10 top-20"><Sidebar /></div> */}
     </div>
   );
 }

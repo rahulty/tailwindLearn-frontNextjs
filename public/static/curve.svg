@@ -1,0 +1,8 @@
+<!-- <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="100 20 10 130" shape-rendering="geometricPrecision" text-rendering="geometricPrecision"><path id="e8LRXPIYQcE2" d="M40.5058,76.28524C40.5058,-4.85026,171.27884,11.74533,165.2985,77.52902C162.4154,109.24312,120.73369,138.16535,90.67164,123.13433C75.25873,115.42787,71.28094,99.56221,60.4063,87.47927C51.83765,77.95855,40.5058,91.171838,40.5058,76.048788" transform="matrix(1 0 0 1 0 0.000001)" fill="#efae2e"/></svg> -->
+<svg width="13" height="9" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>Layer 1</title>
+  <path id="svg_8" d="m6.53536,8.55332c-3.33895,-1.25001 -6.53536,-1.74507 -6.53536,-3.89948c0,-2.15441 2.24531,-1.6712 6.53536,-3.89948c4.29005,-2.22827 8.00276,0.90267 6.53536,3.89948c-1.4674,2.9968 -3.1964,5.14948 -6.53536,3.89948z" opacity="undefined"  fill="#efae2e"/>
+ </g>
+</svg>
